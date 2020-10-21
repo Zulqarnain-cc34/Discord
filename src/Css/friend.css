@@ -1,0 +1,39 @@
+.friend {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    margin: 0px 5px;
+    margin-bottom: 6px;
+    align-items: center;
+}
+
+.friend__icon {
+    display: none !important;
+    color: #fff !important;
+    width: 26px !important;
+    height: 26px !important;
+    margin-left: 4px !important;
+}
+
+.friend>h3 {
+    font-size: 17px;
+    font-weight: 400px;
+    line-height: 16px;
+    color: rgb(245, 245, 245);
+    background-color: transparent;
+    flex: 1;
+    margin: 10px 10px;
+}
+
+.friend__image {
+    display: flex;
+    margin: 10px 5px;
+}
+
+.friend:hover {
+    background-color: rgba(79, 84, 92, 0.16);
+}
+
+.friend:hover>.friend__icon {
+    display: flex !important;
+}

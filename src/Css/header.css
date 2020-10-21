@@ -1,0 +1,155 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    height: 54px;
+    border-bottom: 2px solid #26282e;
+    box-sizing: border-box;
+}
+
+.header__left {
+    display: flex;
+    padding: 6px;
+    color: #b9bbbe;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__middle__button {
+    display: flex;
+    margin: 0px 13px;
+}
+
+.header__middle>.header__middle__button>h3 {
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.header__middle__button:hover>h3 {
+    color: #fff;
+}
+
+.header__middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.header__right__icon {
+    display: flex !important;
+    color: #B9BBBE !important;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.header__right__right__div {
+    display: flex;
+    margin: 0px 8px;
+}
+
+.header__right__right__div:hover>.header__right__icon {
+    color: #fff !important;
+}
+
+.header__right__chat {
+    display: flex !important;
+    color: #B9BBBE !important;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.header__addfriend {
+    display: flex;
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: rgba(67, 181, 129, 0.2);
+    color: rgb(67, 181, 129);
+    padding: 6px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.header__addfriend>h3 {
+    margin: 2px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.header__right__left:hover>.header__right__chat {
+    color: #fff !important;
+}
+
+.header__right__left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    top: 30px;
+    font-size: 14px;
+    right: 0px;
+    border-radius: 10px;
+    font-weight: 400;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 100;
+}
+
+.header__right__left:hover .tooltiptext {
+    visibility: visible;
+}
+
+.header__right__right__div:hover .tooltiptext {
+    visibility: visible;
+}
+
+.header__right__right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.header__left__friends>.MuiSvgIcon-root {
+    width: 25px !important;
+    height: 25px !important;
+    margin-left: 10px !important;
+}
+
+.header__left__friends>h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 03px;
+}
+
+.header__left__friends {
+    display: flex;
+    align-items: center;
+}

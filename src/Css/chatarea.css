@@ -1,0 +1,17 @@
+.chatarea {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.chatarea__chat {
+    display: flex;
+    flex: 0.64;
+}
+
+.chatarea__active {
+    display: flex;
+    flex: 0.36;
+    border-radius: 4px;
+    background-color: #2F3136;
+}

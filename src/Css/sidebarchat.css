@@ -1,0 +1,123 @@
+.sidebarchat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 8px;
+    background-color: #2F3136;
+    border-radius: 4px;
+    height: 42px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in;
+    font-family: 'Whitney Medium', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.active {
+    background-color: #393C42;
+}
+
+@font-face {
+    font-family: 'Whitney Medium';
+    src: local('Whitney Medium'), url('whitneymedium.woff') format('woff');
+}
+
+.sidebarchat>h3 {
+    font-family: 'Whitney Medium';
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(173, 176, 182);
+    margin: 0px 4px;
+    margin-left: 6px;
+    transition: all 0.1s ease-in;
+}
+
+
+/*.sidebarchat:focus {
+    background-color: #202225;
+}*/
+
+.sidebaroption__icon {
+    color: rgb(130, 133, 138) !important;
+    margin-right: 6px !important;
+    margin-left: 10px !important;
+    transition: all 0.1s ease-in !important;
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.active__icon {
+    color: #FFFFFF !important;
+    margin-right: 12px !important;
+    transition: all 0.1s ease-in !important;
+}
+
+.directclass {
+    display: flex;
+    align-items: center;
+    padding: 18px 8px 4px 18px;
+    height: 40px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #8e9297;
+    transition: all 0.1s ease-in;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    ;
+}
+
+.directclass>h3 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #8E9297;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.directbaroption__icon {
+    color: #8e9297 !important;
+    margin-right: 12px !important;
+    transition: all 0.1s ease-in !important;
+}
+
+.directbaroption__icon:hover {
+    color: #fff !important;
+}
+
+.sidebaroption__icon {
+    color: #8e9297 !important;
+}
+
+.directclass:hover>h3 {
+    color: #fff;
+}
+
+
+/*
+
+.directsidebarchat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 8px;
+    background-color: rgb(47, 49, 54);
+    border-radius: 4px;
+    height: 42px;
+    cursor: pointer;
+}*/
+
+.sidebarchat:hover {
+    background-color: rgba(79, 84, 92, 0.32);
+}
+
+.sidebarchat:hover>h3 {
+    color: #fff;
+}
+
+.sidebarchat:hover>.sidebaroption__icon {
+    color: #fff !important;
+}
